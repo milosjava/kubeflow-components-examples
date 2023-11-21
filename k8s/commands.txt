@@ -1,0 +1,3 @@
+# delete all pods with some state:
+
+!kubectl delete pods --field-selector=status.phase=Succeeded
